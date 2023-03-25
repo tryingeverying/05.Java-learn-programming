@@ -2,11 +2,11 @@ import java.awt.*;
 import java.io.*;
 import javax.swing.*;
 
-/**
+/** 
  * A program for viewing images.
- * @version 11.0.2 2023-03-25
- * @author Cay Horstmann
- */
+ * @version 11.0.2
+ * @author 沙丁鱼罐头
+*/
 public class ImageViewer {
 
     public static void main(String[] args)
@@ -44,10 +44,10 @@ class ImageViewerFrame extends JFrame
         JMenuBar menuBar = new JMenuBar();
         setJMenuBar(menuBar);
 
-        JMenu  menu = new JMenu("file");
+        JMenu  menu = new JMenu("File");
         menuBar.add(menu);
 
-        JMenuItem openItem = new JMenuItem("open");
+        JMenuItem openItem = new JMenuItem("Open");
         menu.add(openItem);
         openItem.addActionListener(event -> {
             // 展示文件选择对话框
@@ -60,7 +60,7 @@ class ImageViewerFrame extends JFrame
                     label.setIcon(new ImageIcon(name));
                 }
             });
-        JMenuItem exitItem = new JMenuItem("exit");
+        JMenuItem exitItem = new JMenuItem("Exit");
         menu.add(exitItem);
         exitItem.addActionListener(event -> System.exit(0));
     }

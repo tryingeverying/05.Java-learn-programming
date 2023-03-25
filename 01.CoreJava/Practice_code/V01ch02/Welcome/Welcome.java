@@ -1,3 +1,8 @@
+/** 
+ * @version 11.0.2
+ * @author 沙丁鱼罐头
+*/
+
 public class Welcome 
 {
     public static void main(String[] args)

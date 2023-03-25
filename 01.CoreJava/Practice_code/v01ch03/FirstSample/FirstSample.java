@@ -1,4 +1,4 @@
-package Core_Java_Volume_1.v02ch03.FirstSample;
+package Practice_code.v02ch03.FirstSample;
 
 public class FirstSample 
 {
